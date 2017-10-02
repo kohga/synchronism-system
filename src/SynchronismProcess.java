@@ -9,7 +9,7 @@ public class SynchronismProcess {
 			Process p1 = new Process(1,"New York");
 			Process p2 = new Process(2,"San Francisco");
 			Update u1 = new Update(1,"New York"); 
-		    Update u2 = new Update(2,"San Francisco"); 
+			Update u2 = new Update(2,"San Francisco"); 
 			p1.setGlobalTime(gTime);
 			p2.setGlobalTime(gTime);
 			p1.setProcess(p2);
